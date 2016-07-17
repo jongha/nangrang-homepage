@@ -1,0 +1,48 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand page-scroll" href="#page-top">{{site.title-en}}</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#company">회사소개</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#history">회사연혁</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#service">주요 서비스</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">조직구성</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">연락처</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in"><span class="selection">[낭:랑]</span> 하게 <span class="selection">[낭:랑]</span> 하라!</div>
+            <div class="intro-heading">스토리가 있는 광고/마케팅 전문기업 낭랑,<br />오늘도 광고주님과 함께 스토리를 만들어 가겠습니다.</div>
+            <a href="#about" class="page-scroll btn btn-xl">더 보기</a>
+        </div>
+    </div>
+</header>
+{% for page in site.pages %} {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{%
+endif %} {% endfor %}

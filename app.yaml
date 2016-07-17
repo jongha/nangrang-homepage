@@ -1,0 +1,35 @@
+runtime: go
+api_version: go1
+
+handlers:
+# - url: /.*
+#   script: _go_app
+
+- url: /robots.txt
+  static_files: robots.txt
+  upload: robots.txt
+
+- url: /style.css
+  static_files: style.css
+  upload: style.css
+
+- url: /sitemap.xml
+  static_files: sitemap.xml
+  upload: sitemap.xml
+  
+- url: /img
+  static_dir: img
+
+- url: /js
+  static_dir: js
+  
+- url: /css
+  static_dir: css
+
+- url: /index.html
+  static_files: index.html
+  upload: index.html  
+    
+- url: /
+  static_files: index.html
+  upload: index.html
