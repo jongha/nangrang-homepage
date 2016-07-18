@@ -5,11 +5,7 @@
                 <h2 class="section-heading">연락처</h2>
                 <h3 class="section-subheading text-muted">
                         <p><i class="fa fa-map-marker" aria-hidden="true"></i> <span>{{ site.address }}</span>
-                        <p> 제휴 및 광고문의: 
-                            {% for contact in site.contact %}
-                                <i class="fa fa-{{ contact.title }}" aria-hidden="true"></i> <a href="{{ contact.url }}">{{ contact.text }}</a> 
-                            {% endfor %}
-                        </p>
+                        <p> 제휴 및 광고문의: <a href="mailto:{{ site.email }}">{{ site.email }}</a> <a href="phone:{{ site.phone }}">{{ site.phone }}</a></p>
                     </h3>
             </div>
         </div>
