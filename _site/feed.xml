@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>[낭:랑]</title>
-    <description>스토리가 있는 광고/마케팅 전문기업 낭랑,&lt;br /&gt;오늘도 광고주님과 함께 스토리를 만들어 가겠습니다.</description>
+    <title>낭랑 마케팅</title>
+    <description>스토리가 있는 광고/마케팅 전문기업 낭랑, 오늘도 광고주님과 함께 스토리를 만들어 가겠습니다.</description>
     <link>http://www.nangrang.kr/</link>
     <atom:link href="http://www.nangrang.kr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Jul 2016 23:44:16 +0900</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2016 23:44:16 +0900</lastBuildDate>
+    <pubDate>Tue, 23 Aug 2016 10:03:09 +0900</pubDate>
+    <lastBuildDate>Tue, 23 Aug 2016 10:03:09 +0900</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
   </channel>
